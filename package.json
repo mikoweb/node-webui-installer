@@ -1,0 +1,25 @@
+{
+  "private": true,
+  "name": "node-webui-installer",
+  "author": "Rafał Mikołajun",
+  "license": "CC-BY-NC-ND",
+  "version": "0.0.1",
+  "description": "Node WebUI Installer",
+  "main": "lib",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com:mikoweb/node-webui-installer.git"
+  },
+  "engines": {
+    "node": ">0.12.0"
+  },
+  "dependencies": {
+    "bower": "~1.4.1",
+    "commander": "2.9.0",
+    "tmp": "~0.0.28",
+    "wrench": "~1.5.8"
+  },
+  "bin": {
+    "webui": "bin/webui.js"
+  }
+}

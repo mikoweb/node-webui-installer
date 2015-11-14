@@ -1,0 +1,5 @@
+{
+    "repository": "git@gitlab.com:mikoweb/webui-complete-pack.git",
+    "version": "master",
+    "directory": "webui"
+}
