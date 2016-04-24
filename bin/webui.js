@@ -10,7 +10,7 @@ var program = require('commander'),
 
 program
     .version('0.0.1')
-    .usage('install | update')
+    .usage('install | update | grunt')
     .option('--only-vendor', 'Only vendor directory')
     .action(function (cmd) {
         action = cmd;
@@ -23,10 +23,11 @@ settings = config.getConfig(process.cwd() + '/webui.json');
 switch (action) {
     case 'install':
         bower.execute(settings, bower.actions.install, program.onlyVendor || false);
-        grunt.execute(settings);
         break;
     case 'update':
         bower.execute(settings, bower.actions.update, program.onlyVendor || false);
+        break;
+    case 'grunt':
         grunt.execute(settings);
         break;
     default:
