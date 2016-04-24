@@ -3,7 +3,7 @@
     "name": "node-webui-installer",
     "author": "Rafał Mikołajun",
     "license": "CC-BY-NC-ND",
-    "version": "0.0.2",
+    "version": "0.1.0",
     "description": "Node WebUI Installer",
     "main": "lib",
     "repository": {
