@@ -18,7 +18,7 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks('grunt-contrib-copy');
 
     grunt.registerTask('default', [
-        'clean:webuiVendor',
-        'copy:webuiVendor'
+        'copy:webuiVendor',
+        'clean:webuiVendor'
     ]);
 };
