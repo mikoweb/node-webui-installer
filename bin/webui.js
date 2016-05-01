@@ -9,7 +9,7 @@ var program = require('commander'),
     action, settings;
 
 program
-    .version('0.0.1')
+    .version('0.1.3')
     .usage('install | update | grunt')
     .option('--only-vendor', 'Only vendor directory')
     .action(function (cmd) {
