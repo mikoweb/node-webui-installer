@@ -30,3 +30,9 @@ Clean up vendors - keep files defined in the file `webui-grunt.json`
 
     webui grunt
 
+## License
+
+This tool is under the GPLv3 license. See the complete license in the file:
+
+    LICENSE
+
