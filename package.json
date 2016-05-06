@@ -2,7 +2,7 @@
     "name": "node-webui-installer",
     "author": "Rafał Mikołajun",
     "license": "GPLv3",
-    "version": "0.1.4",
+    "version": "0.1.5",
     "description": "Command line tool to install WebUI",
     "keywords": [
         "webui"
@@ -27,5 +27,14 @@
     },
     "bin": {
         "webui": "bin/webui.js"
-    }
+    },
+    "files": [
+        "bin",
+        "lib",
+        "template",
+        "defaults.json",
+        "LICENSE",
+        "package.json",
+        "README.md"
+    ]
 }
