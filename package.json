@@ -2,7 +2,7 @@
     "name": "node-webui-installer",
     "author": "Rafał Mikołajun",
     "license": "GPLv3",
-    "version": "0.1.5",
+    "version": "0.1.6",
     "description": "Command line tool to install WebUI",
     "keywords": [
         "webui"
@@ -23,7 +23,8 @@
         "grunt": "~1.0.1",
         "grunt-cli": "~1.2",
         "grunt-contrib-clean": "~1.0",
-        "grunt-contrib-copy": "~1.0"
+        "grunt-contrib-copy": "~1.0",
+        "cross-spawn-async": "~2.2"
     },
     "bin": {
         "webui": "bin/webui.js"
