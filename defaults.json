@@ -2,5 +2,5 @@
     "repository": null,
     "version": "master",
     "directory": "webui",
-    "bowerDir": null
+    "bowerDir": "./"
 }
