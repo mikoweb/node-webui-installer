@@ -5,13 +5,6 @@ Execute the following commands:
     cd ~ && npm install node-webui-installer`
     echo "export PATH=\$PATH:~/node_modules/.bin" >> ~/.profile
 
-## Init WebUI project
-
-Execute the following commands:
-
-    npm init
-    npm install --save-dev node-webui-installer
-
 ## Commands list
 
 Install WebUI library

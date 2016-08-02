@@ -1,8 +1,10 @@
 {
     "name": "node-webui-installer",
-    "author": "Rafał Mikołajun",
+    "author": {
+        "name": "Rafał Mikołajun"
+    },
     "license": "GPL-3.0",
-    "version": "0.1.10",
+    "version": "0.2.0",
     "description": "Command line tool to install WebUI",
     "keywords": [
         "webui"
@@ -13,7 +15,7 @@
         "url": "https://github.com/mikoweb/node-webui-installer.git"
     },
     "engines": {
-        "node": ">0.12.0"
+        "node": ">4.2.0"
     },
     "dependencies": {
         "bower": "~1.4.0",
