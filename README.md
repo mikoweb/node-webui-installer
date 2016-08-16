@@ -25,7 +25,7 @@ Clean up vendors - keep files defined in the file `webui-grunt.json`
 
 ## License
 
-This tool is under the GPLv3 license. See the complete license in the file:
+This tool is under the LGPLv3 license. See the complete license in the file:
 
     LICENSE
 
