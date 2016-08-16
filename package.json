@@ -3,8 +3,8 @@
     "author": {
         "name": "Rafał Mikołajun"
     },
-    "license": "GPL-3.0",
-    "version": "0.2.0",
+    "license": "LGPL-3.0",
+    "version": "0.2.1",
     "description": "Command line tool to install WebUI",
     "keywords": [
         "webui"
