@@ -2,7 +2,7 @@
 
 Execute the following commands:
 
-    cd ~ && npm install node-webui-installer`
+    cd ~ && npm install node-webui-installer
     echo "export PATH=\$PATH:~/node_modules/.bin" >> ~/.profile
 
 ## Commands list
