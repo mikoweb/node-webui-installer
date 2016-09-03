@@ -3,6 +3,6 @@
     "version": "master",
     "directory": "webui",
     "bowerDir": "./",
-    "vendor_dir": null,
-    "public_dir": null
+    "vendorDir": null,
+    "publicDir": null
 }
