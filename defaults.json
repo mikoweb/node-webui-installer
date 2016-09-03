@@ -2,5 +2,7 @@
     "repository": null,
     "version": "master",
     "directory": "webui",
-    "bowerDir": "./"
+    "bowerDir": "./",
+    "vendor_dir": null,
+    "public_dir": null
 }
