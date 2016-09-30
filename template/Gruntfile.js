@@ -2,10 +2,10 @@ module.exports = function (grunt) {
     grunt.initConfig({
         path: {
             webui: {
-                vendor: '{{path_webui_vendor}}'
+                vendor: {{path_webui_vendor}}
             }
         },
-        pkg: grunt.file.readJSON('{{path_package_js}}'),
+        pkg: grunt.file.readJSON({{path_package_js}}),
         clean: {
             webuiVendor: ['<%= path.webui.vendor %>']
         },
