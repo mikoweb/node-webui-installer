@@ -1,0 +1,31 @@
+{
+  "globals": [
+    "Backbone",
+    "$",
+    "_",
+    "DeepDiff",
+    "expect",
+    "it",
+    "describe",
+    "module",
+    "grunt",
+    "sweetAlert",
+    "toastr",
+    "require",
+    "define"
+  ],
+  "boss": true,
+  "bitwise": true,
+  "curly": true,
+  "eqeqeq": true,
+  "esversion": 5,
+  "forin": true,
+  "latedef": true,
+  "laxbreak": true,
+  "nocomma": true,
+  "notypeof": true,
+  "strict": true,
+  "undef": true,
+  "validthis": true,
+  "node": true
+}

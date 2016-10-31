@@ -1,27 +1,20 @@
 ## Installation
 
-Execute the following commands:
-
-    cd ~ && npm install node-webui-installer
-    echo "export PATH=\$PATH:~/node_modules/.bin" >> ~/.profile
+    npm install -g webui-cli
 
 ## Commands list
 
-Install WebUI library
+Install WebUI Boilerplate.
 
-    webui install
+    webui install [version]
 
-Update WebUI library
+Copy engine files.
 
-    webui update
+    webui copy-engine
 
-Update only for vendors
+Copy libraries and build `.requirejsrc`.
 
-    webui update --only-vendor
-
-Clean up vendors - keep files defined in the file `webui-grunt.json`
-
-    webui grunt
+    webui copy-libs
 
 ## License
 

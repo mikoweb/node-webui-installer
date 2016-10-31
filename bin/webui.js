@@ -2,35 +2,21 @@
 
 "use strict";
 
-var program = require('commander'),
+var cmd = require('../lib/command'),
     config = require('../lib/config.js'),
-    bower = require('../lib/bower.js'),
-    grunt = require('../lib/grunt.js'),
-    action, settings;
+    exitError = require('../lib/exit-error'),
+    chalk = require('chalk');
 
-program
-    .version('0.1.3')
-    .usage('install | update | grunt')
-    .option('--only-vendor', 'Only vendor directory')
-    .action(function (cmd) {
-        action = cmd;
-    })
-    .parse(process.argv)
-;
-
-settings = config.getConfig(process.cwd() + '/webui.json');
-
-switch (action) {
-    case 'install':
-        bower.execute(settings, bower.actions.install, program.onlyVendor || false);
-        break;
-    case 'update':
-        bower.execute(settings, bower.actions.update, program.onlyVendor || false);
-        break;
-    case 'grunt':
-        grunt.execute(settings);
-        break;
-    default:
-        console.error('no command given!');
-        process.exit(1);
+try {
+    cmd.start(config.getConfig(process.cwd() + '/webui.json'));
+} catch (e) {
+    if (exitError.validError(e)) {
+        console.log("\n");
+        console.log(chalk.red('Exit code:', chalk.inverse(e.code)));
+        console.log(chalk.red('Message:', chalk.inverse(e.message)));
+        console.log("\n");
+        process.exit(e.code);
+    } else {
+        throw e;
+    }
 }

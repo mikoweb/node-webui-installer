@@ -1,8 +1,8 @@
 {
-    "repository": null,
-    "version": "master",
+    "package": "webui-boilerplate",
+    "version": null,
     "directory": "webui",
-    "bowerDir": "./",
-    "vendorDir": null,
-    "publicDir": null
+    "publicDir": null,
+    "libDir": null,
+    "libs": []
 }
